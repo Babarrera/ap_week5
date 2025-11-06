@@ -68,6 +68,32 @@ print(' '.join(words[::-1]))
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
+# Problem Set 3: String Methods
+
+# Upper & Lower:
+text = "MAY THE FORCE BE WITH YOU."
+print(text.lower())
+
+# String Joining and Splitting:
+motto = ["Make", "haste", "slowly."]
+
+# a. Convert the list into a single string
+joined = '/'.join(motto)
+print(joined)
+
+# b. Split the string at every 'a'
+print(joined.split('a'))
+
+# Replacing Words:
+sentence = "Life is what happens when you are busy making other plans."
+
+# a. Replace "busy" with "distracted"
+sentence = sentence.replace("busy", "distracted")
+
+# b. Replace "plans" with "mistakes"
+sentence = sentence.replace("plans", "mistakes")
+
+print(sentence)
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
@@ -79,3 +105,20 @@ print(' '.join(words[::-1]))
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+# Problem Set 4: String Properties and Advanced Operations
+
+# Repetition:
+print("Iteration" * 7)
+
+# Word Search:
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+print("moonlight" in quote)
+
+# Length and Count:
+word = "Supercalifragilisticexpialidocious"
+
+# a. Number of characters
+print(len(word))
+
+# b. Count how many times 'i' appears
+print(word.count('i'))
